@@ -13,8 +13,8 @@
 
 Summary:	Nonfree Newest rtlwifi firmware files for the Linux kernel
 Name:		rtlwifi-dkms
-Version:	0.6%{?gver}%{dist}
-Release:	1%{?dist}
+Version:	0.6
+Release:	1%{?gver}%{dist}
 Source0:	https://github.com/lwfinger/rtlwifi_new/archive/%{commit0}.tar.gz#/%{name}-%{shortcommit0}.tar.gz
 Source1:	dkms.conf
 Source2:	blacklist-rtlwifi_new-dkms.conf
